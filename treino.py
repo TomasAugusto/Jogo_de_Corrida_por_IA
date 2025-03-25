@@ -117,6 +117,6 @@ if __name__ == "__main__":
     populacao.add_reporter(neat.StdOutReporter(True))
     estatisticas = neat.StatisticsReporter()
     populacao.add_reporter(estatisticas)
-    populacao.run(rodar_simulacao, 10)
+    populacao.run(rodar_simulacao, 15)
 
     print("Treinamento concluído. O melhor piloto foi salvo em 'melhor_piloto.pkl'")

@@ -158,4 +158,4 @@ class Carro:
         return imagem_rotacionada
 
 def load_map():
-    return pygame.image.load('map.png').convert()
+    return pygame.image.load('map2.png').convert()
